@@ -8,5 +8,6 @@ class CreateFlowers < ActiveRecord::Migration[6.1]
       t.integer :quantity
       t.belongs_to :store
     end
+
   end
 end

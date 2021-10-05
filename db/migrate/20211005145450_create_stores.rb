@@ -4,5 +4,6 @@ class CreateStores < ActiveRecord::Migration[6.1]
       t.string :name
       t.belongs_to :owner
     end
+
   end
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_05_141934) do
+ActiveRecord::Schema.define(version: 2021_10_05_145455) do
 
   create_table "flowers", force: :cascade do |t|
     t.string "name"
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2021_10_05_141934) do
 
   create_table "owners", force: :cascade do |t|
     t.string "name"
-    t.string "ocassion"
+    t.string "occasion"
     t.string "location"
   end
 
