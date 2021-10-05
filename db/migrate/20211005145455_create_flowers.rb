@@ -6,6 +6,7 @@ class CreateFlowers < ActiveRecord::Migration[6.1]
       t.string :color
       t.integer :price
       t.integer :quantity
+      t.string :image_url
       t.belongs_to :store
     end
 

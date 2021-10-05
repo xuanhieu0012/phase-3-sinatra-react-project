@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2021_10_05_145455) do
     t.string "color"
     t.integer "price"
     t.integer "quantity"
+    t.string "image_url"
     t.integer "store_id"
     t.index ["store_id"], name: "index_flowers_on_store_id"
   end
